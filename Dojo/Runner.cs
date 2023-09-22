@@ -42,7 +42,7 @@ namespace Dojo
         private ISolver _solver;
 
         // Select your game
-        private string _game = "mollymage";
+        private string _game = "tetris";
 
         // Paste here board page url from browser after registration,
         // or put it as command line parameter.
