@@ -36,7 +36,7 @@ public class TetrisBoard : AbstractBoard<TetrisElement>
     
     public TetrisBoard(string boardString) : base(boardString) { }
     
-    public Point GetCurrentFigureBottomLeftPoint()
+    public Point GetCurrentFigurePoint()
     {
         using var doc = JsonDocument.Parse(BoardString);
         var root = doc.RootElement;

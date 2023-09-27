@@ -8,11 +8,11 @@ namespace Dojo.Tests.Games.Tetris;
 public class TetrisBoardTests
 {
     [Test]
-    public void Test_GetCurrentFigureBottomLeftPoint()
+    public void Test_GetCurrentFigurePoint()
     {
         var board = new TetrisBoard(_json);
         var expected = new Point(4, 9);
-        Assert.AreEqual(expected, board.GetCurrentFigureBottomLeftPoint());
+        Assert.AreEqual(expected, board.GetCurrentFigurePoint());
     }
     
     [Test]
